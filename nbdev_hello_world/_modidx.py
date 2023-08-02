@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ssime-git.github.io',
                 'git_url': 'https://github.com/ssime-git/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': { 'nbdev_hello_world.core.check_answer': ('core.html#check_answer', 'nbdev_hello_world/core.py'),
+                                        'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
